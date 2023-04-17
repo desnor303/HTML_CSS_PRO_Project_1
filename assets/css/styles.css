@@ -41,6 +41,11 @@ a {
     opacity: 0.9;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* ==================== header ==================== */
 .header {
     background: #e6f0ff;
@@ -126,4 +131,25 @@ a {
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
+}
+
+/* ==================== header ==================== */
+.client {
+    margin-top: 79px;
+    padding: 43px 0 63px;
+}
+
+.client .row-2 {
+    margin-top: 23px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7d8589;
+}
+
+.client .brand {
+    margin-top: 96.5px;
+    width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
 }
