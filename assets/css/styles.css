@@ -237,3 +237,85 @@ a {
 .guide .btn {
     min-width: 170px;
 }
+
+/* ==================== featured ==================== */
+.featured {
+    background: #f5fafe;
+    padding: 110px 0;
+}
+
+.featured .title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #000339;
+}
+
+.featured .title-desc {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a6473;
+}
+
+.featured .title-desc .link {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #0689ff;
+    margin-right: 8px;
+}
+
+.featured .list {
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+}
+
+.featured .list .item {
+    flex: 1;
+    gap: 30px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.featured .list .thumb {
+    height: 227px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.featured .list .col-content {
+    padding: 17px 20px 23px;
+}
+
+.featured .list .sub-title {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1;
+    color: #000339;
+}
+.featured .list .desc {
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #a3a6ab;
+}
+.featured .list-items {
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured .list-items .desc {
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    color: #4d4d52;
+}
