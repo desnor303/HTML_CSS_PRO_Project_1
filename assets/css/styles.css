@@ -46,6 +46,12 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+
+img.avt {
+    width: 16.34px;
+    height: 16.34px;
+    border-radius: 50%;
+}
 /* ==================== header ==================== */
 .header {
     background: #e6f0ff;
@@ -282,8 +288,8 @@ a {
 
 .featured .list .thumb {
     height: 227px;
-    object-fit: cover;
     width: 100%;
+    object-fit: cover;
     border-radius: 12px 12px 0 0;
 }
 
@@ -318,4 +324,138 @@ a {
     line-height: 1;
     letter-spacing: 0.01em;
     color: #4d4d52;
+}
+
+/* ==================== stats ==================== */
+.stats {
+    margin-top: 75px;
+    padding: 50px 0;
+}
+.stats .content {
+    width: 1017px;
+}
+.stats .thumb {
+    position: relative;
+    width: 52%;
+    height: 460px;
+}
+
+.stats .thumb > .image {
+    position: absolute;
+    right: 0;
+    width: 400px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.stats-row {
+    display: flex;
+}
+
+.intro {
+    position: relative;
+    width: 48%;
+}
+
+.intro-panel {
+    position: absolute;
+    max-width: 309px;
+    right: 0;
+    top: 79px;
+}
+
+.intro-panel .title {
+    position: relative;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.29;
+    color: #000339;
+}
+
+.intro-panel .title::before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    width: 41px;
+    height: 4px;
+    background: #000339;
+    border-radius: 12px;
+}
+
+.intro-panel .desc {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a6473;
+}
+/* panel */
+.stats .thumb-panel {
+    position: absolute;
+    width: 239px;
+    min-height: 252px;
+    padding: 45px 23px 41px;
+    border-radius: 0 0 12px 12px;
+    z-index: 1;
+    background: #fff;
+}
+
+.stats .thumb-panel .title {
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    color: #000339;
+}
+
+.stats .thumb-panel .desc {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #a7a7a7;
+}
+
+.stats .thumb-panel .line {
+    margin-top: 26px;
+    height: 1.2px;
+    width: 100%;
+    background: #e9e9e9;
+}
+
+.stats .thumb-panel .list-avt {
+    margin-top: 26px;
+    display: flex;
+    gap: 13.92px 16.34px;
+    flex-wrap: wrap;
+}
+
+.group-avt {
+    display: flex;
+}
+
+.avt + .avt {
+    margin-left: -5px;
+}
+
+.stats-footer {
+    margin-top: 110px;
+    max-width: 100%;
+    width: 985px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stats-footer .title {
+    font-weight: 600;
+    font-size: 6.4rem;
+    line-height: 1;
+    color: #000000;
+}
+
+.stats-footer .desc {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #7b8087;
 }
