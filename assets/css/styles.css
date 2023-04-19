@@ -459,3 +459,52 @@ img.avt {
     line-height: 1.5;
     color: #7b8087;
 }
+
+/* ================= sub ================= */
+.sub {
+    margin-top: 90px;
+}
+.sub .content {
+    position: relative;
+    background: #063183;
+    border-radius: 20px;
+    align-items: center;
+    height: 370px;
+}
+
+.sub .info {
+    width: 501px;
+    margin-left: 80px;
+}
+.sub .info .title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.sub .info .desc {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #ffffff;
+    opacity: 0.75;
+}
+
+.sub .info .btn {
+    margin-top: 20px;
+    min-width: 151px;
+    background: #ffffff;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 1.3;
+    line-height: 1.56;
+    color: #002366;
+}
+
+.sub .content .image {
+    position: absolute;
+    bottom: 0;
+    right: 221px;
+}
