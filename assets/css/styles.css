@@ -508,3 +508,48 @@ img.avt {
     bottom: 0;
     right: 221px;
 }
+
+/* ==================== footer ===================== */
+
+.footer {
+    margin-top: 55px;
+    padding: 50px 0 58px;
+}
+
+.footer .row {
+    align-items: start;
+}
+.footer .title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1c1c1d;
+}
+.footer .list {
+    margin-top: 40px;
+}
+
+.footer .list li {
+    margin-top: 18px;
+    font-weight: 400;
+}
+
+.footer .list a {
+    font-size: 16px;
+    color: #7a7a7e;
+}
+
+.footer .list a:hover {
+    text-decoration: underline;
+}
+.footer .col .desc {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #7a7a7e;
+}
+
+.col .link-content .desc {
+    max-width: 257px;
+    margin-bottom: 40px;
+}
