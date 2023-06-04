@@ -25,62 +25,64 @@
         <title>Document</title>
     </head>
     <body>
-        <main>
-            <!-- header -->
-            <header class="header">
-                <div class="content">
-                    <nav class="navbar">
-                        <!-- logo -->
-                        <a href="#">
-                            <img src="./assets/img/Logo.svg" alt="Besnik." />
-                        </a>
-                        <!-- navigation -->
-                        <ul>
-                            <li>
-                                <a href="#!">home</a>
-                            </li>
-                            <li>
-                                <a href="#!">Services</a>
-                            </li>
-                            <li>
-                                <a href="#!">Features</a>
-                            </li>
-                            <li>
-                                <a href="#!">Resources</a>
-                            </li>
-                            <li>
-                                <a href="#!">Contact</a>
-                            </li>
-                        </ul>
-                        <!-- action -->
-                        <div class="action">
-                            <a href="#!" class="action-link">sign in </a>
-                            <a href="#!" class="btn action-btn">sign up </a>
-                        </div>
-                    </nav>
-                    <div class="hero">
-                        <div class="info">
-                            <p class="sub-title">Welcome to Besnik Agency</p>
-                            <h1 class="title">
-                                Discover a place you'll love to live.
-                            </h1>
-                            <p class="desc">
-                                Get the best real estate deals first, before
-                                they hit the mass market! HOT FORECLOSURE DEALS
-                                with one simple search.
-                            </p>
-                            <a href="#!" class="btn">More About Us</a>
-                        </div>
-                        <img
-                            src="./assets/img/hero-house.svg"
-                            alt=""
-                            class="hero-img"
-                        />
+        <header class="header">
+            <div class="content header__content">
+                <nav class="navbar">
+                    <!-- logo -->
+                    <a href="#">
+                        <img src="./assets/img/Logo.svg" alt="Besnik." />
+                    </a>
+                    <!-- navigation -->
+                    <ul class="header__list">
+                        <li>
+                            <a href="#">home</a>
+                        </li>
+                        <li>
+                            <a href="#Services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#featured">Features</a>
+                        </li>
+                        <li>
+                            <a href="#Resources">Resources</a>
+                        </li>
+                        <li>
+                            <a href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- action -->
+                    <div class="action">
+                        <a href="#!" class="action-link">sign in </a>
+                        <a href="#!" class="btn action-btn">sign up </a>
                     </div>
-                </div>
-            </header>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- hero, home -->
+            <section class="hero">
+                <section class="hero__content content">
+                    <div class="info">
+                        <p class="sub-title">Welcome to Besnik Agency</p>
+                        <h1 class="title">
+                            Discover a place you'll love to live.
+                        </h1>
+                        <p class="desc">
+                            Get the best real estate deals first, before they
+                            hit the mass market! HOT FORECLOSURE DEALS with one
+                            simple search.
+                        </p>
+                        <a href="#!" class="btn">More About Us</a>
+                    </div>
+                    <img
+                        src="./assets/img/hero-house.svg"
+                        alt=""
+                        class="hero-img"
+                    />
+                </section>
+            </section>
             <!-- client -->
-            <div class="client">
+            <div class="client" id="Services">
                 <div class="content">
                     <div class="row row-1">
                         <a href="#">
@@ -222,7 +224,7 @@
                     </div>
                 </div>
             </div>
-            <div class="featured">
+            <div class="featured" id="featured">
                 <div class="content">
                     <!-- title -->
                     <h2 class="title">Featured Properties</h2>
@@ -368,7 +370,7 @@
                     </div>
                 </div>
             </div>
-            <div class="stats">
+            <div class="stats" id="Resources">
                 <!-- content-image -->
                 <div class="content">
                     <div class="stats-row">
@@ -551,7 +553,7 @@
                     />
                 </div>
             </div>
-            <footer class="footer">
+            <footer class="footer" id="footer">
                 <div class="content">
                     <div class="row">
                         <div class="col">

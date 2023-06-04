@@ -16,7 +16,7 @@ body {
 
 /* common  */
 .content {
-    max-width: calc(100% - 48px);
+    max-width: calc(100vw - 48px);
     width: 1110px;
     margin-left: auto;
     margin-right: auto;
@@ -54,18 +54,23 @@ img.avt {
 }
 /* ==================== header ==================== */
 .header {
+    position: sticky;
+    top: -20px;
+    z-index: 9;
+    padding-top: 20px;
     background: #e6f0ff;
-    height: 100vh;
-    position: relative;
+}
+
+.header__content {
+    padding: 18px 0px 10px;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
 }
 
-.navbar ul {
+.header__list {
     display: flex;
     margin-left: 50px;
 }
@@ -97,7 +102,11 @@ img.avt {
 }
 
 .hero {
-    margin-top: 130px;
+    background: #e6f0ff;
+    height: calc(100vh - 88px);
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .hero .info {
@@ -113,7 +122,7 @@ img.avt {
 
 .hero .title {
     font-weight: 700;
-    font-size: 6.4rem;
+    font-size: 6.2rem;
     line-height: 1.19;
     color: #000336;
     margin-top: 8px;
